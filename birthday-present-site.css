@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    background: skyblue;
+    color: white;
+}
+
+h1, h2 {
+    text-shadow: 0px 0px 3px black;
+}
+
+h3, h4 {
+    text-shadow: 0px 0px 3px black;
+    background-color: pink;
+    padding: 5px 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#first-picture {
+    width: 160px;
+}
+
+#baby-picture {
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid pink;
+}
+
+.birthdate {
+    border-bottom: 3px dashed green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: black;
+    font-size: 20px;
+
+}
+
+.best-wishes {
+    display: block;
+    border: 5px dotted pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+#shariful {
+    font-size: 30px;
+    text-shadow: 0px 0px 5px black;
+}
